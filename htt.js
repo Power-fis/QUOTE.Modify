@@ -31,15 +31,11 @@ var quotes = [
 ];
 
 document.getElementById("next-quote").addEventListener("click", function() {
-   
-    // выбираем случайную фразу из массива
-    // данные в массив могут попадать и через api
+
     var quote = quotes[ Math.floor( Math.random() * quotes.length ) ];
 
-    // цитата
     var phrase = document.querySelector("#phrase");
-   
-    // автор
+
     var author = document.querySelector("#author");
 
     phrase.innerHTML = quote[0];

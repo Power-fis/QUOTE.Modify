@@ -1,21 +1,41 @@
 #random-phrase {
   margin: 1px auto;
   position: absolute;
-  padding: 15px;
+  padding: 50px;
+  
   font-size: 1.3em;
   font-style: italic;
-  border: 1px solid #ddd;
+
+  border: 1px solid orange;
+  border-left: 10px solid orange;
+  border-radius: 5px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
 }
 
 #random-phrase #phrase {
   text-align: left;
+  
+}
+
+#random-phrase{
+
 }
 
 #random-phrase #author {
-  text-align: right;
+  text-align: center;
 }
+
+
 
 #next-quote {
   padding: 5px 10px;
   border: 1px solid #ddd;
+  position: fixed;
+  left: center;
+  right: center;
+  bottom: center;
+  top: center;
+  transform: translate(-50%,0);
 }
