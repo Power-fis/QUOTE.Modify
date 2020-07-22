@@ -1,0 +1,21 @@
+#random-phrase {
+  margin: 1px auto;
+  position: absolute;
+  padding: 15px;
+  font-size: 1.3em;
+  font-style: italic;
+  border: 1px solid #ddd;
+}
+
+#random-phrase #phrase {
+  text-align: left;
+}
+
+#random-phrase #author {
+  text-align: right;
+}
+
+#next-quote {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
